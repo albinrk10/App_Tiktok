@@ -4,11 +4,28 @@ A new Flutter project.
 
 ## Getting Started
 
-Pasos para agregar videos:
-Crea la carpeta (en la raíz del proyecto) assets/Videos.
-Agrega los videos a la carpeta recién creada: assets/Videos.
-Ve a lib/shared/data/local_video_post.dart.
-En todas las instancias de '{videoUrl': 'assets/videos/1.mp4'}, cambia '1.mp4' por el nombre de tus videos respectivos, manteniendo la ruta correcta.
+# Instrucciones para agregar videos
+
+1. **Crear la carpeta de videos:**
+   - En la raíz del proyecto, crea la carpeta `assets/Videos`.
+
+2. **Agregar videos a la carpeta:**
+   - Coloca tus archivos de video en la carpeta recién creada (`assets/Videos`).
+
+3. **Modificar el archivo de datos de videos:**
+   - Abre el archivo `lib/shared/data/local_video_post.dart`.
+
+4. **Actualizar las referencias de video:**
+   - En todas las instancias de `'{videoUrl': 'assets/videos/1.mp4'}`, renombra `'1.mp4'` con el nombre específico de tus videos, manteniendo la ruta correcta.
+
+   Ejemplo:
+   ```dart
+   // Antes:
+   {'videoUrl': 'assets/videos/1.mp4'},
+   
+   // Después (si tu video se llama 'mi_video.mp4'):
+   {'videoUrl': 'assets/videos/mi_video.mp4'},
+
 
 A few resources to get you started if this is your first Flutter project:
 
